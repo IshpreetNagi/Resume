@@ -1,18 +1,23 @@
-name: Build Typst to PDF
+name: Build & Deploy Resume PDF
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: typst-community/typst-action@v1
-        with:
-          source: resume.typ
-          output: resume.pdf
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v4
+
+      - name: Compile Typst resume
+        run: |
+          typst compile resume.typ resume.pdf
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
