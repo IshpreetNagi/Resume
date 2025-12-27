@@ -97,7 +97,7 @@
   // Dates is optional
   dates: dates-helper(start-date: "Nov 2023", end-date: "Dec 2023"),
   // URL is also optional
-  url: "github.com/IshpreetNagi/McMaster-Room-Booking-Portal",
+  url: "github.com/owengretzinger/room-booking-system",
 )
 - Developed a prototype front-end interface with *TypeScript*, and *Tailwind CSS* for a web-based room booking portal, integrating various rooms spread across buildings on McMaster University campus
 - Collaborated with a team of 4, using *Git* for version control and repository management on GitHub to streamline communication and workflow
