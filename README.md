@@ -1,3 +1,3 @@
 # Resume
 
-[![Resume](images/resume-png.png)](https://ishpreetnagi.github.io/Resume/resume.pdf)  
+#### View my Resume: [ishpreetnagi.github.io/Resume/resume.pdf](https://ishpreetnagi.github.io/Resume/resume.pdf)
