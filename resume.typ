@@ -62,7 +62,7 @@
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
 - Built, trained, and optimized various ML models with *Python*, *TensorFlow*, and *PyTorch* to analyze the presence of valuable minerals in geological datasets
-- *Led a team of 4* in developing a data pipeline using *Pandas* and *NumPy* to preprocess and clean large geological datasets
+- *Led a team of 4* in developing a data pipeline using Pandas and *NumPy* to preprocess and clean large geological datasets
 - *Managed a team of 8* in the agile development processes including providing technical guidance to the team and updates to leadership
 
 #work(
