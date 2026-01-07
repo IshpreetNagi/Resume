@@ -14,7 +14,7 @@
   // All the lines below are optional.
   // For example, if you want to to hide your phone number:
   // feel free to comment those lines out and they will not show.
-  location: location,
+  // location: location,
   email: email,
   github: github,
   linkedin: linkedin,
@@ -71,9 +71,9 @@
   company: "McMaster University - Department of Computing and Software",
   dates: dates-helper(start-date: "May 2023", end-date: "May 2025"),
 )
-- Trained and enhanced various neural network models using *Python* and *MATLAB* for a variety of applications
-- Supported the development of a novel LSTM model, reducing variable intake and improving efficiency and speed by *30%*
-- Conducted the hyper-parameter tuning of a complex Genetic Algorithm utilizing Optuna, improving effectiveness by *20%*
+- Trained and enhanced various neural network models using *Python* and *MATLAB* for a variety of applications under supervision of Dr. Douglas Down
+- Supported the development of a novel *LSTM* model, reducing variable intake and improving efficiency and speed by *30%*
+- Conducted the hyper-parameter tuning of a complex Genetic Algorithm utilizing *Optuna*, improving effectiveness by *20%*
 
 == Projects
 
@@ -91,6 +91,19 @@
 - Integrated *Last.fm API* to display real-time listening activity from Spotify
 
 #project(
+  name: "DeltaHacks 10",
+  // Role is optional
+  role: "Technical Executive",
+  // Dates is optional
+  dates: dates-helper(start-date: "Aug 2023", end-date: "May 2024"),
+  // URL is also optional
+  url: "github.com/deltahacks/landing-10",
+)
+- Created the official DeltaHacks 10 website visited by *1000+ applicants* using *Astro*, *TypeScript*, and *Tailwind CSS*
+- Enhanced user experience through dynamic content integration and responsive design, resulting in a *25% increase in user retention*
+- Collaborated with a team of 8, utilizing *Git* and *GitHub* for version control and project management
+
+#project(
   name: "McMaster Room Booking Portal",
   // Role is optional
   // role: "Maintainer",
@@ -101,20 +114,7 @@
 )
 - Developed a prototype front-end interface with *TypeScript*, and *Tailwind CSS* for a web-based room booking portal, integrating various rooms spread across buildings on McMaster University campus
 - Collaborated with a team of 4, using *Git* for version control and repository management on GitHub to streamline communication and workflow
-- Built an interactive time booking tool, utilizing *Tailwind CSS* to promote structured web design elements, boosting application ease-of-use by *20%*
-
-#project(
-  name: "DeltaHacks 10",
-  // Role is optional
-  role: "Technical Executive",
-  // Dates is optional
-  dates: dates-helper(start-date: "Aug 2023", end-date: "May 2024"),
-  // URL is also optional
-  url: "github.com/deltahacks/landing-10",
-)
-- Supported the development of the official DeltaHacks 10 website visited by *1000+ applicants* using *Astro*, *TypeScript*, and *Tailwind CSS*
-- Enchanced user experience through dynamic content integration and responsive design, resulting in a *25% increase in user retention*
-- Collaborated with a team of 8, utilizing *Git* and *GitHub* for version control and project management
+- Built an interactive time booking tool, utilizing *Tailwind CSS* to promote structured web design elements, boosting *application ease-of-use by 20%*
 
 == Skills
 - *Programming Languages*: Python, Java, JavaScript, TypeScript, C, HTML/CSS, Bash, SQL, Haskell, C++, C\#
