@@ -45,7 +45,7 @@
 #edu(
   institution: "McMaster University",
   location: "Hamilton, ON",
-  dates: dates-helper(start-date: "Sept 2021", end-date: "Aug 2026"),
+  dates: dates-helper(start-date: "Sept 2021", end-date: "May 2026"),
   degree: "Bachelor's of Applied Science, Computer Science",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
