@@ -2,7 +2,7 @@
 
 // Put your personal information here, replacing mine
 #let name = "Ishpreet Nagi"
-#let location = "Brampton, ON"
+#let location = "Toronto, ON"
 #let email = "ishpreetnagi@gmail.com"
 #let github = "github.com/IshpreetNagi"
 #let linkedin = "linkedin.com/in/ishpreetnagi"
@@ -78,6 +78,20 @@
 == Projects
 
 #project(
+  name: "Kollec App",
+  // Role is optional
+  // role: "Maintainer",
+  // Dates is optional
+  dates: dates-helper(start-date: "Sept 2025", end-date: "Apr 2026"),
+  // URL is also optional
+  url: "kollec.app",
+)
+- Co-developed a secure and centralized card collection platform using *NextJS*, *TypeScript*, and *Chakra UI*, and deployed on *Vercel* with *Supabase*
+- Implemented a custom-trained *YOLO* segmentation model to automatically identify and categorize cards from user-uploaded images, achieving an *accuracy rate of 99%*
+- Integrated with *Supabase*, *Prisma ORM*, and *PostgreSQL* to manage user data, card collections, and implemente user trade matching algorithm, ensuring a seamless and efficient user experience
+- Collaborated with a team of 7, utilizing *Git* and *GitHub* for version control and project management, and *Agile* methodologies for efficient development
+
+#project(
   name: "Personal Website",
   // Role is optional
   // role: "Maintainer",
@@ -103,20 +117,7 @@
 - Enhanced user experience through dynamic content integration and responsive design, resulting in a *25% increase in user retention*
 - Collaborated with a team of 8, utilizing *Git* and *GitHub* for version control and project management
 
-#project(
-  name: "McMaster Room Booking Portal",
-  // Role is optional
-  // role: "Maintainer",
-  // Dates is optional
-  dates: dates-helper(start-date: "Nov 2023", end-date: "Dec 2023"),
-  // URL is also optional
-  url: "github.com/owengretzinger/room-booking-system",
-)
-- Developed a prototype front-end interface with *TypeScript*, and *Tailwind CSS* for a web-based room booking portal, integrating various rooms spread across buildings on McMaster University campus
-- Collaborated with a team of 4, using *Git* for version control and repository management on GitHub to streamline communication and workflow
-- Built an interactive time booking tool, utilizing *Tailwind CSS* to promote structured web design elements, boosting *application ease-of-use by 20%*
-
 == Skills
-- *Programming Languages*: Python, Java, JavaScript, TypeScript, C, HTML/CSS, Bash, SQL, Haskell, C++, C\#
-- *Tools & Platforms*: Git, VS Code, Eclipse, Jupyter, Unity, MATLAB, DBeaver, Vercel, LaTeX
-- *Frameworks & Libraries*: React, Next.js, Astro, Tensorflow, PyTorch, Tailwind CSS, XGBoost, Optuna
+- *Programming Languages*: Python, TypeScript, JavaScript, SQL (PostgreSQL), HTML/CSS, Java
+- *Frameworks & Libraries*: React, Next.js, Tailwind CSS, Chakra UI, TensorFlow, PyTorch, NumPy, Pandas, Scikit-learn
+- *Tools & Platforms*: Git, Jupyter, Vercel, LaTeX, Figma, Supabase, Prisma ORM, MATLAB
