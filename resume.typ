@@ -2,7 +2,7 @@
 
 // Put your personal information here, replacing mine
 #let name = "Ishpreet Nagi"
-#let location = "Toronto, ON"
+#let location = "Brampton, ON"
 #let email = "ishpreetnagi@gmail.com"
 #let github = "github.com/IshpreetNagi"
 #let linkedin = "linkedin.com/in/ishpreetnagi"
@@ -120,4 +120,4 @@
 == Skills
 - *Programming Languages*: Python, TypeScript, JavaScript, SQL (PostgreSQL), HTML/CSS, Java
 - *Frameworks & Libraries*: React, Next.js, Tailwind CSS, Chakra UI, TensorFlow, PyTorch, NumPy, Pandas, Scikit-learn
-- *Tools & Platforms*: Git, Jupyter, Vercel, LaTeX, Figma, Supabase, Prisma ORM, MATLAB
+- *Tools & Platforms*: Git, Jupyter, Vercel, LaTeX, Typst, Supabase, Prisma ORM, MATLAB
