@@ -46,13 +46,13 @@
   institution: "McMaster University",
   location: "Hamilton, ON",
   dates: dates-helper(start-date: "Sept 2021", end-date: "May 2026"),
-  degree: "Bachelor's of Applied Science, Computer Science",
+  degree: "Bachelor of Applied Science, Computer Science",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 )
 - Cumulative GPA: 3.7\/4.0 | Dean's Honor List
-- Relevant Coursework: Applications of Machine Learning, Data Structures, Algorithms, Databases, Discrete Mathematics, Operating Systems, Linear Algebra, Cryptography, Human-Computer Interfaces, Data Mining
+- Relevant Coursework: Applications of Machine Learning, Natural Language Processing, Data Structures, Algorithms, Databases, Discrete Mathematics, Operating Systems, Cryptography, Human-Computer Interfaces, Data Mining
 == Work Experience
 
 #work(
@@ -61,9 +61,10 @@
   company: "Healthcare Systems Research & Analysis",
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
-- Built, trained, and optimized various ML models with *Python*, *TensorFlow*, and *PyTorch* to analyze the presence of valuable minerals in geological datasets
-- *Led a team of 4* in developing a data pipeline using *Pandas* and *NumPy* to preprocess and clean large geological datasets
-- *Managed a team of 8* in the agile development processes including providing technical guidance to the team and updates to leadership
+- Built, trained, and optimized various ML models with *TensorFlow*, and *PyTorch* to detect the presence of valuable minerals, delivering actionable insights with an *accuracy rate of 98%*
+- Designed and developed a backend data pipeline using *Python*, *Pandas*, and *NumPy* to ingest, preprocess, and validate large geological datasets, enabling downstream ML analysis
+- *Led a team of 4* developers through the complete development lifecycle including code architecture design, implementation, code reviews, and technical guidance; reported progress directly to leadership
+- *Managed a cross-functional team of 8* using *Agile* methodologies, unblocking bottlenecks, and maintaining delivery timelines, ensuring the successful completion of project milestones
 
 #work(
   title: "Machine Learning Analyst and Research Assistant",
@@ -71,7 +72,7 @@
   company: "McMaster University - Department of Computing and Software",
   dates: dates-helper(start-date: "May 2023", end-date: "May 2025"),
 )
-- Trained and enhanced various neural network models using *Python* and *MATLAB* for a variety of applications under supervision of Dr. Douglas Down
+- Trained and enhanced various neural network models using *Python* and *MATLAB* for a variety of applications under the supervision of Dr. Douglas Down
 - Supported the development of a novel *LSTM* model, reducing variable intake and improving efficiency and speed by *30%*
 - Conducted the hyper-parameter tuning of a complex Genetic Algorithm utilizing *Optuna*, improving effectiveness by *20%*
 
@@ -86,10 +87,11 @@
   // URL is also optional
   url: "kollec.app",
 )
-- Co-developed a secure and centralized card collection platform using *NextJS*, *TypeScript*, and *Chakra UI*, and deployed on *Vercel* with *Supabase*
+- Co-developed a secure and centralized card collection platform using *Next.js*, *TypeScript*, and deployed on *Vercel*
+- Architected and built the full-stack backend using *Next.js (API routes)*, *Prisma ORM*, and *PostgreSQL* on *Supabase*, handling user accounts, card collections, and a peer-to-peer trade matching algorithm
 - Implemented a custom-trained *YOLO* segmentation model to automatically identify and categorize cards from user-uploaded images, achieving an *accuracy rate of 99%*
-- Integrated with *Supabase*, *Prisma ORM*, and *PostgreSQL* to manage user data, card collections, and implemente user trade matching algorithm, ensuring a seamless and efficient user experience
-- Collaborated with a team of 7, utilizing *Git* and *GitHub* for version control and project management, and *Agile* methodologies for efficient development
+- Designed the database schema and *RESTful API layer* to support complex relational queries across users, collections, and trade offers with efficient indexing and optimized query performance
+- Collaborated with a team of 7, using *Git*, *GitHub*, *Docker*, and *Agile* workflows; managed PRs, code reviews, and feature scoping across the full development cycle. 
 
 #project(
   name: "Personal Website",
@@ -101,8 +103,7 @@
   url: "ishpreetnagi.com",
 )
 - Designed and developed a responsive and streamlined single-page portfolio site using *React*, *Astro*, and *Tailwind CSS*
-- Implemented modern web design principles to ensure optimal user experience across devices, achieving a *95+ Lighthouse performance score*
-- Integrated *Last.fm API* to display real-time listening activity from Spotify
+- Implemented modern web design principles to ensure optimal user experience, achieving a *95+* on Lighthouse
 
 #project(
   name: "DeltaHacks 10",
@@ -115,9 +116,8 @@
 )
 - Created the official DeltaHacks 10 website visited by *1000+ applicants* using *Astro*, *TypeScript*, and *Tailwind CSS*
 - Enhanced user experience through dynamic content integration and responsive design, resulting in a *25% increase in user retention*
-- Collaborated with a team of 8, utilizing *Git* and *GitHub* for version control and project management
 
 == Skills
 - *Programming Languages*: Python, TypeScript, JavaScript, SQL (PostgreSQL), HTML/CSS, Java
 - *Frameworks & Libraries*: React, Next.js, Tailwind CSS, Chakra UI, TensorFlow, PyTorch, NumPy, Pandas, Scikit-learn
-- *Tools & Platforms*: Git, Jupyter, Vercel, LaTeX, Typst, Supabase, Prisma ORM, MATLAB
+- *Tools & Platforms*: Git, Jupyter, Docker, Vercel, LaTeX, Typst, Supabase, Prisma ORM, MATLAB, HuggingFace
