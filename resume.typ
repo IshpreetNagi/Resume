@@ -61,7 +61,7 @@
   company: "Healthcare Systems Research & Analysis",
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
-- Engineered and refined diverse machine learning algorithms with TensorFlow and PyTorch, yielding *98% accuracy* in identifying valuable mineral deposits and providing critical analytical data
+- Engineered and refined diverse machine learning algorithms with *TensorFlow* and *PyTorch*, yielding *98% accuracy* in identifying valuable mineral deposits and providing critical analytical data
 - Constructed a backend data pipeline using *Python*, *Pandas*, and *NumPy* to ingest, preprocess, and validate large geological datasets, enabling downstream ML analysis
 - *Led a team of 4* developers through the complete development lifecycle including code architecture design, implementation, code reviews, and technical guidance; reported progress directly to leadership
 - *Managed a cross-functional team of 8* using *Agile* methodologies, unblocking bottlenecks, and maintaining delivery timelines, ensuring the successful completion of project milestones
