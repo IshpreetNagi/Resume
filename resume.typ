@@ -120,4 +120,4 @@
 == Skills
 - *Programming Languages*: Python, TypeScript, JavaScript, SQL (PostgreSQL), HTML/CSS, Java
 - *Frameworks & Libraries*: React, Next.js, Tailwind CSS, Chakra UI, TensorFlow, PyTorch, NumPy, Pandas, Scikit-learn
-- *Tools & Platforms*: Git, Jupyter, Docker, Vercel, LaTeX, Typst, Supabase, Prisma ORM, MATLAB, HuggingFace
+- *Tools & Platforms*: Git, Jupyter, Docker, Vercel, LaTeX, Typst, Supabase, Prisma ORM, MATLAB
