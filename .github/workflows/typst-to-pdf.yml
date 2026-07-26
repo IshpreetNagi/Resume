@@ -1,4 +1,4 @@
-name: Render Typst Resume to PDF
+name: Render Typst Resumes to PDF
 on:
   push:
   workflow_dispatch:
@@ -8,22 +8,121 @@ permissions:
   pages: write
   id-token: write
 
+# Allow one deployment at a time, and let a running one finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   render:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: typst-community/setup-typst@v4
         with:
           typst-version: ^0.14.0
+
       - uses: actions/configure-pages@v5
-      - run: typst compile resume.typ resume.pdf
+
+      - name: Compile resumes and build site
+        run: |
+          mkdir -p _site
+
+          # One entry per resume: "url-slug|Display title|File basename"
+          # The basename is used for both "<basename>.typ" and the published
+          # "<basename>.pdf", so this array is the only place to edit.
+          entries=(
+            "ml|AI / ML Engineer|Ishpreet Nagi - ML Resume"
+            "backend|Backend Engineer|Ishpreet Nagi - BE Resume"
+            "fullstack|Full-Stack Engineer|Ishpreet Nagi - FS Resume"
+          )
+
+          links=""
+          for entry in "${entries[@]}"; do
+            IFS='|' read -r slug title base <<< "$entry"
+
+            typst compile "$base.typ" "_site/$base.pdf"
+
+            # Spaces are the only unsafe character in these filenames.
+            href="../$(printf '%s' "$base.pdf" | sed 's/ /%20/g')"
+
+            mkdir -p "_site/$slug"
+            printf '%s\n' \
+              '<!doctype html>' \
+              '<html lang="en">' \
+              '<head>' \
+              '<meta charset="utf-8">' \
+              '<meta name="viewport" content="width=device-width, initial-scale=1">' \
+              "<title>Ishpreet Nagi &ndash; $title Resume</title>" \
+              "<meta http-equiv=\"refresh\" content=\"0; url=$href\">" \
+              "<link rel=\"canonical\" href=\"$href\">" \
+              '</head>' \
+              "<body>Redirecting to <a href=\"$href\">$base.pdf</a>&hellip;</body>" \
+              '</html>' \
+              > "_site/$slug/index.html"
+
+            links="$links      <li><a class=\"card\" href=\"$slug/\"><span class=\"role\">$title</span><br><span class=\"path\">/$slug</span></a></li>"$'\n'
+          done
+
+          {
+            cat <<'HEAD'
+          <!doctype html>
+          <html lang="en">
+          <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Ishpreet Nagi &ndash; Resumes</title>
+          <style>
+            :root { color-scheme: light dark; }
+            body {
+              font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+              max-width: 34rem;
+              margin: 4rem auto;
+              padding: 0 1.25rem;
+              line-height: 1.6;
+            }
+            h1 { margin-bottom: 0.25rem; }
+            p.sub { margin-top: 0; opacity: 0.7; }
+            ul { list-style: none; padding: 0; }
+            li { margin: 0.75rem 0; }
+            a.card {
+              display: block;
+              padding: 0.85rem 1rem;
+              border: 1px solid currentColor;
+              border-radius: 0.5rem;
+              text-decoration: none;
+              color: inherit;
+            }
+            a.card:hover { background: rgba(38, 66, 139, 0.12); }
+            .role { font-weight: 600; }
+            .path { font-size: 0.85rem; opacity: 0.7; }
+          </style>
+          </head>
+          <body>
+            <h1>Ishpreet Nagi</h1>
+            <p class="sub">Resumes, tailored per role.</p>
+            <ul>
+          HEAD
+            printf '%s' "$links"
+            cat <<'TAIL'
+            </ul>
+          </body>
+          </html>
+          TAIL
+          } > _site/index.html
+
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: .
+          path: _site
+
   deploy:
     runs-on: ubuntu-latest
     needs: render
     if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - id: deployment
+        uses: actions/deploy-pages@v4

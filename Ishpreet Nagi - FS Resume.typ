@@ -47,7 +47,7 @@
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
 - Shipped end-to-end customer-facing features, owning technical design, implementation, code review, and rollout of an ML classification product delivering *98% accuracy* in production
-- Designed scalable REST APIs and a distributed backend pipeline in Python with PostgreSQL and Pandas, *automating 90% of downstream deployment* and replacing manual analyst workflows
+- Designed scalable *REST APIs* and a distributed backend pipeline in *Python* with *PostgreSQL* and *Pandas*, *scikit-learn*, *CUDA*, and *XGBoost*, *automating 90% of downstream deployment* and replacing manual analyst workflows
 - Led a team of 4 engineers across 8 stakeholders, driving architecture decisions, enforcing test coverage and code review standards, and shipping every milestone on time
 
 #work(
@@ -56,8 +56,8 @@
   company: "McMaster University - Department of Computing and Software",
   dates: dates-helper(start-date: "May 2023", end-date: "May 2025"),
 )
-- Built an automated evaluation service under Dr. Douglas Down with Optuna-based hyperparameter search and reproducible experiment tracking, *improving model effectiveness by 20%*
-- Refactored a legacy research codebase into a modular, well-tested Python package with CI checks, *reducing iteration time by 40%* and enabling other researchers to extend it independently
+- Built an automated evaluation service under Dr. Douglas Down with *Optuna*-based hyperparameter search and *reproducible experiment tracking*, *improving model effectiveness by 50%*
+- Refactored a legacy research codebase into a modular, well-tested Python package with *CI checks*, *reducing iteration time by 60%* and enabling other researchers to extend it independently
 
 == Projects
 
@@ -66,11 +66,12 @@
   dates: dates-helper(start-date: "Sept 2025", end-date: "Apr 2026"),
   url: "kollec.app",
 )
-- Co-developed a production card-collection platform end-to-end using *Next.js*, *TypeScript*, *React*, and *Tailwind CSS*, deployed on Vercel and serving real users
-- Designed scalable REST APIs and microservices with Next.js API routes, Prisma ORM, and PostgreSQL, owning the backend lifecycle from schema design through deployment and query optimization
-- Built a stateful peer-to-peer trade-matching engine with complex relational queries across users, collections, and offers, applying DS&A choices to keep response times low at scale
-- Integrated a YOLO segmentation model behind a REST endpoint with embedding-based context, automating real-time card identification at *99% accuracy*
-- Owned feature delivery within a team of 7 — writing unit tests, running code reviews, and maintaining CI/CD pipelines with Git, GitHub Actions, and Docker
+- Co-developed a production card-collection platform end-to-end using *Next.js*, *TypeScript*, *React*, and *Tailwind CSS*, deployed on Vercel and serving *100+* real users
+- Designed scalable *REST APIs* and microservices with Next.js *API routes*, *Prisma ORM*, and *PostgreSQL*, owning the backend lifecycle from schema design through deployment and query optimization
+- Built a stateful peer-to-peer trade-matching engine with complex relational queries across users, collections, and offers, applying *DS&A* choices to keep response times under *100ms at scale*
+- Integrated a *YOLO* segmentation model behind a REST endpoint with *embedding-based context*, automating real-time card identification at *99% accuracy*
+- Owned feature delivery within a team of 7 — writing *unit tests* using *Jest* and *pytest*, *running code reviews*, and maintaining *CI/CD* pipelines with *Git*, *GitHub Actions*, and *Docker*
+- Developed using agentic *LLM* features with *OpenAI* and *Claude* APIs, applying prompt chaining, tool use, and structured outputs while independently evaluating hallucination and failure modes to ensure reliability
 
 #project(
   name: "DeltaHacks 10",
@@ -79,10 +80,10 @@
   url: "github.com/deltahacks/landing-10",
 )
 - Shipped the official DeltaHacks 10 site to *1000+ applicants* under a hard deadline, working cross-functionally with design and operations leads
-- Optimized build pipeline and bundle size using Astro and TypeScript, *increasing user engagement by 25%* through dynamic content and responsive design
+- Optimized build pipeline and bundle size using Astro and TypeScript, *increasing user engagement by 25%*
 
 == Skills
 - *Languages:* TypeScript, JavaScript, Python, Java, SQL (PostgreSQL, MySQL), HTML/CSS
-- *Frontend:* React, Next.js, Astro, Tailwind CSS, Chakra UI, Material UI, Redux (familiar)
-- *Backend & APIs:* Node.js, REST APIs, GraphQL (familiar), Prisma ORM, PostgreSQL, Redis (familiar), microservices, system design
-- *Tools & AI:* Git, GitHub Actions (CI/CD), Docker, Vercel, Supabase, automated testing, GitHub Copilot, Cursor, Claude Code, OpenAI/Claude APIs, LLM integration, RAG
+- *Frontend:* React, Next.js, Astro, Tailwind CSS, Chakra UI, Material UI, Redux, ShadCN
+- *Backend & APIs:* Node.js, REST APIs, GraphQL, Prisma ORM, PostgreSQL, microservices, system design
+- *Tools & AI:* Git, GitHub Actions (CI/CD), Docker, Vercel, Supabase, automated testing, GitHub Copilot, Claude Code, OpenAI/Claude APIs, LLM integration

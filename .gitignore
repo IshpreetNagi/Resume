@@ -1,5 +1,13 @@
-resume.pdf
-Ishpreet Nagi - Resume.pdf
-# Ishpreet Nagi - Resume.typ
-Job Posting Requirements.pdf
+# Generic resumes - kept locally, not tracked or published
+resume.typ
+Ishpreet Nagi - Resume.typ
+
+# PDFs are never committed: CI compiles them from the .typ sources.
+# Anything else here is local scratch.
+*.pdf
+
+# Local build output (mirrors what the workflow publishes)
+_site/
+
+# Local research / scratch
 Resume_Keyword_Breakdown.md

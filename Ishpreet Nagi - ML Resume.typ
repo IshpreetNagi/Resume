@@ -47,7 +47,7 @@
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
 - Engineered an end-to-end ML pipeline for large-scale geospatial classification using *TensorFlow* and *PyTorch*, benchmarking model variants and shipping the winning architecture at *98% accuracy*
-- Built distributed data pipelines in *Python* with *Pandas* and *NumPy* to ingest and validate multi-million-row datasets, powering training workflows and *automating 90% of model deployment*
+- Built distributed data pipelines in *Python* with *Pandas*, *NumPy*, *scikit-learn*, *CUDA*, and *XGBoost* to ingest and validate multi-million-row datasets, powering training workflows and *automating 90% of model deployment*
 - Instrumented training and inference with reproducible experiment tracking and evaluation metrics that surfaced failure modes early, while leading 4 engineers across 8 stakeholders to on-time delivery
 
 #work(
@@ -67,10 +67,10 @@
   dates: dates-helper(start-date: "Sept 2025", end-date: "Apr 2026"),
   url: "kollec.app",
 )
-- Built and deployed a production computer-vision service using a custom *YOLO* segmentation model with embedding-based context awareness, achieving *99% accuracy* across card types and lighting conditions
+- Co-developed and deployed a scalable cloud-hosted card collection platform used by real customers, designing distributed APIs and data workflows with *Next.js*, *Node.js*, *Prisma ORM*, and *PostgreSQL* — from schema design to production 
+- Built and deployed a production *computer-vision* service using a custom *YOLO* segmentation model with *embedding-based context* awareness, achieving *99% accuracy* across card types and lighting conditions
 - Designed a *RAG-style* identification workflow — image embeddings and vector similarity search over a curated corpus, with a lightweight *LLM* reasoning step for disambiguation
-- Integrated *OpenAI* and *Claude* APIs for agentic features, applying prompt chaining, tool use, and structured outputs while evaluating hallucination and failure modes
-- Owned the full ML lifecycle — dataset curation, training, evaluation, serving behind a REST API, and production monitoring — within a team of 7
+- Owned the full ML and *NLP* lifecycle — dataset curation, training, evaluation, serving behind a REST API, and production monitoring — within a team of 7 maintaining full *Git/version control* and *CI/CD* pipelines
 
 #project(
   name: "DeltaHacks 10",
@@ -78,11 +78,11 @@
   dates: dates-helper(start-date: "Aug 2023", end-date: "May 2024"),
   url: "github.com/deltahacks/landing-10",
 )
-- Instrumented telemetry and behavioral logging to characterize user engagement, using the data to iterate on content and *increase user attention by 25%*
 - Shipped the official DeltaHacks 10 platform under a hard deadline to *1000+ applicants* using Astro and TypeScript
+- Instrumented telemetry and behavioral logging to characterize user engagement, using the data to iterate on content and *increase user attention by 25%*
 
 == Skills
-- *Languages:* Python, C/C++ (familiar), TypeScript, Java, SQL (PostgreSQL, MySQL)
-- *ML & DL:* PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, Optuna, Hugging Face Transformers (familiar), JAX (familiar)
+- *Languages:* Python, C/C++, TypeScript, Java, SQL (PostgreSQL, MySQL)
+- *ML & DL:* PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, Optuna, Hugging Face Transformers
 - *ML Systems:* LSTM/RNN, CNN/YOLO, embeddings, vector search, RAG, prompt chaining, agents, model evaluation & ablation, hyperparameter search, GPU-aware training
-- *Data, Infra & AI Tooling:* PostgreSQL, distributed data pipelines, Jupyter, Git, Docker, GitHub Actions (CI/CD), AWS/GCP (familiar), OpenAI API, Claude API, MCP, Cursor, Claude Code
+- *Data, Infra & AI Tooling:* PostgreSQL, distributed data pipelines, Jupyter, Git, Docker, GitHub Actions (CI/CD), AWS/GCP, OpenAI API, Claude API, MCP, Cursor, Claude Code
