@@ -35,8 +35,7 @@
   dates: dates-helper(start-date: "Sept 2021", end-date: "May 2026"),
   degree: "Bachelor of Applied Science, Computer Science",
 )
-- Cumulative GPA: Summa Cum Laude | Dean's Honor List
-- Relevant Coursework: Applications of Machine Learning, Natural Language Processing, Data Mining, Data Structures, Algorithms, Databases, Operating Systems, Probability & Statistics
+- Summa Cum Laude | Dean's Honor List
 
 == Work Experience
 
@@ -48,7 +47,8 @@
 )
 - Engineered an end-to-end ML pipeline for large-scale geospatial classification using *TensorFlow* and *PyTorch*, benchmarking model variants and shipping the winning architecture at *98% accuracy*
 - Built distributed data pipelines in *Python* with *Pandas*, *NumPy*, *scikit-learn*, *CUDA*, and *XGBoost* to ingest and validate multi-million-row datasets, powering training workflows and *automating 90% of model deployment*
-- Instrumented training and inference with reproducible experiment tracking and evaluation metrics that surfaced failure modes early, while leading 4 engineers across 8 stakeholders to on-time delivery
+- Instrumented training and inference with reproducible experiment tracking and evaluation metrics that surfaced failure modes before they reached production
+- Led 4 engineers across 8 stakeholders, turning ambiguous research requirements into technical designs, running code reviews, and delivering every milestone on time
 
 #work(
   title: "Machine Learning Analyst and Research Assistant",
@@ -59,6 +59,7 @@
 - Fine-tuned and evaluated deep neural networks under Dr. Douglas Down, building evaluation and model-serving frameworks to achieve *10% accuracy gains* with *15% smaller models*
 - Designed a novel *LSTM* architecture with an automated eval loop and *Optuna*-based hyperparameter search, iterating rapidly to *improve F1 by 90%* over the hand-tuned baseline
 - Analyzed model behavior with statistical evaluation, ablations, and error analysis to characterize failure modes and guide architecture and training decisions
+- Maintained the research codebase over 2+ years with versioned datasets, reproducible pipelines, and *CI checks*, *cutting experiment iteration time by 60%*
 
 == Projects
 

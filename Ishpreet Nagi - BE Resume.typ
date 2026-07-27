@@ -35,8 +35,7 @@
   dates: dates-helper(start-date: "Sept 2021", end-date: "May 2026"),
   degree: "Bachelor of Applied Science, Computer Science",
 )
-- Cumulative GPA: Summa Cum Laude | Dean's Honor List
-- Relevant Coursework: Data Structures, Algorithms, Databases, Operating Systems, Concurrency, Computer Architecture, Cryptography, Discrete Mathematics
+- Summa Cum Laude | Dean's Honor List
 
 == Work Experience
 
@@ -48,7 +47,8 @@
 )
 - Designed distributed backend data pipelines in *Python* with *PostgreSQL*, *Pandas*, and *NumPy* to ingest, preprocess, and validate large interconnected datasets, *automating 90% of downstream deployment*
 - Implemented *RESTful service interfaces* and background job workers for long-running processing, with retry logic, schema validation, and clear technical documentation for downstream consumers
-- Tuned relational queries and schema design (indexing, joins, batch reads) to keep multi-million-row workloads responsive, while leading 4 engineers across 8 stakeholders to on-time delivery
+- Tuned relational queries and schema design (indexing, joins, batch reads) to keep multi-million-row workloads responsive
+- Led 4 engineers across 8 stakeholders, turning ambiguous requirements into technical designs and shipping every milestone on time
 
 #work(
   title: "Machine Learning Analyst and Research Assistant",
@@ -57,7 +57,8 @@
   dates: dates-helper(start-date: "May 2023", end-date: "May 2025"),
 )
 - Built and maintained backend evaluation and model-serving infrastructure in *Python* under Dr. Douglas Down, achieving *10% accuracy gains* with 15% smaller models
-- Independently maintained a research codebase across 2+ years — versioned schemas, reproducible pipelines, CI checks, and clear docs — enabling others to extend it without hand-holding
+- Automated the evaluation loop with *Optuna*-based hyperparameter search and reproducible experiment tracking, *improving F1 by 90%* over the hand-tuned baseline
+- Owned a research codebase across 2+ years with versioned schemas, reproducible pipelines, and *CI checks*, enabling other researchers to extend it unaided
 
 == Projects
 
@@ -66,12 +67,11 @@
   dates: dates-helper(start-date: "Sept 2025", end-date: "Apr 2026"),
   url: "kollec.app",
 )
-- Co-developed a production card-collection platform end-to-end using *Next.js*, *TypeScript*, *React*, and *Tailwind CSS*, deployed on Vercel and serving *100+* real users
+- Co-developed a production card-collection platform with *Next.js* and *TypeScript*, deployed on Vercel and serving *100+* real users
 - Designed and shipped scalable *REST APIs* and microservices using *Next.js API routes*, *Prisma ORM*, and *PostgreSQL*, owning the backend lifecycle from schema design through production deployment
-- Built a stateful peer-to-peer trade-matching engine backed by complex *relational queries* and *asynchronous updates* across users, collections, and offers, applying *DS&A* choices to keep latency under *100ms at scale*
-- Implemented *query optimization and indexing strategies* (composite indexes, pagination, N+1 elimination) with *structured logging* so slow paths stay visible at scale
+- Built a stateful peer-to-peer trade-matching engine backed by complex *relational queries* and *asynchronous updates* across users, collections, and offers, applying *composite indexes*, pagination, and *N+1 elimination* to hold latency under *100ms at scale*
 - Built an event-driven workflow for asynchronous card-identification jobs, hardened with retries, idempotency keys, and technical docs for internal API consumers
-- Maintained *CI/CD* pipelines with *Git*, *GitHub Actions*, and *Docker* within a team of 7, driving code review and test-coverage standards
+- Maintained *CI/CD* pipelines with *Git*, *GitHub Actions*, and *Docker* within a team of 7, driving code review, test-coverage, and *structured logging* standards
 
 #project(
   name: "DeltaHacks 10",
@@ -79,8 +79,8 @@
   dates: dates-helper(start-date: "Aug 2023", end-date: "May 2024"),
   url: "github.com/deltahacks/landing-10",
 )
-- Independently maintained the DeltaHacks 10 platform over a full cycle, shipping to *1000+ applicants* under a hard deadline
-- Built instrumentation and *structured activity logging* for user engagement, treating telemetry as a first-class backend concern
+- Maintained the DeltaHacks 10 platform over a full cycle, shipping to *1000+ applicants* under a hard deadline
+- Built instrumentation and *structured activity logging* for engagement telemetry, treating observability as a first-class backend concern
 
 == Skills
 - *Languages:* Python, Java, TypeScript, JavaScript, SQL (PostgreSQL, MySQL), C/C++

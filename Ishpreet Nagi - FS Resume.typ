@@ -35,8 +35,7 @@
   dates: dates-helper(start-date: "Sept 2021", end-date: "May 2026"),
   degree: "Bachelor of Applied Science, Computer Science",
 )
-- Cumulative GPA: Summa Cum Laude | Dean's Honor List
-- Relevant Coursework: Data Structures, Algorithms, Databases, Operating Systems, Concurrency, Human-Computer Interfaces, Applications of Machine Learning, Discrete Mathematics
+- Summa Cum Laude | Dean's Honor List
 
 == Work Experience
 
@@ -47,7 +46,7 @@
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
 - Shipped end-to-end customer-facing features, owning technical design, implementation, code review, and rollout of an ML classification product delivering *98% accuracy* in production
-- Designed scalable *REST APIs* and a distributed backend pipeline in *Python* with *PostgreSQL* and *Pandas*, *scikit-learn*, *CUDA*, and *XGBoost*, *automating 90% of downstream deployment* and replacing manual analyst workflows
+- Designed scalable *REST APIs* and a distributed backend pipeline in *Python* with *PostgreSQL* and *Pandas*, *scikit-learn*, *CUDA*, and *XGBoost*, *automating 90% of downstream deployment*
 - Led a team of 4 engineers across 8 stakeholders, driving architecture decisions, enforcing test coverage and code review standards, and shipping every milestone on time
 
 #work(
@@ -71,7 +70,14 @@
 - Built a stateful peer-to-peer trade-matching engine with complex relational queries across users, collections, and offers, applying *DS&A* choices to keep response times under *100ms at scale*
 - Integrated a *YOLO* segmentation model behind a REST endpoint with *embedding-based context*, automating real-time card identification at *99% accuracy*
 - Owned feature delivery within a team of 7 — writing *unit tests* using *Jest* and *pytest*, *running code reviews*, and maintaining *CI/CD* pipelines with *Git*, *GitHub Actions*, and *Docker*
-- Developed using agentic *LLM* features with *OpenAI* and *Claude* APIs, applying prompt chaining, tool use, and structured outputs while independently evaluating hallucination and failure modes to ensure reliability
+- Built agentic *LLM* features with *OpenAI* and *Claude* APIs using prompt chaining, tool use, and structured outputs, testing adversarially for hallucination
+
+#project(
+  name: "Personal Website",
+  dates: dates-helper(start-date: "July 2024", end-date: "Present"),
+  url: "ishpreetnagi.com",
+)
+- Built a responsive single-page portfolio with *React*, *Astro*, and *Tailwind CSS*, tuned to a *95+ Lighthouse score*
 
 #project(
   name: "DeltaHacks 10",
@@ -79,7 +85,7 @@
   dates: dates-helper(start-date: "Aug 2023", end-date: "May 2024"),
   url: "github.com/deltahacks/landing-10",
 )
-- Shipped the official DeltaHacks 10 site to *1000+ applicants* under a hard deadline, working cross-functionally with design and operations leads
+- Shipped the official DeltaHacks 10 site to *1000+ applicants* under a hard deadline, working with design and operations leads
 - Optimized build pipeline and bundle size using Astro and TypeScript, *increasing user engagement by 25%*
 
 == Skills
