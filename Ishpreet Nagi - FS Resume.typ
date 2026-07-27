@@ -56,7 +56,7 @@
   company: "McMaster University - Department of Computing and Software",
   dates: dates-helper(start-date: "May 2023", end-date: "May 2025"),
 )
-- Built an automated evaluation service under Dr. Douglas Down with *Optuna*-based hyperparameter search and *reproducible experiment tracking*, *improving model effectiveness by 50%*
+- Built an automated evaluation service under Dr. Douglas Down with *Optuna*-based hyperparameter search and *reproducible experiment tracking*, *improving F1 by 90%* over the hand-tuned baseline
 - Refactored a legacy research codebase into a modular, well-tested Python package with *CI checks*, *reducing iteration time by 60%* and enabling other researchers to extend it independently
 
 == Projects

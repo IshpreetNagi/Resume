@@ -57,7 +57,7 @@
   dates: dates-helper(start-date: "May 2023", end-date: "May 2025"),
 )
 - Fine-tuned and evaluated deep neural networks under Dr. Douglas Down, building evaluation and model-serving frameworks to achieve *10% accuracy gains* with *15% smaller models*
-- Designed a novel *LSTM* architecture with an automated eval loop and *Optuna*-based hyperparameter search, iterating rapidly to *improve effectiveness by 20%*
+- Designed a novel *LSTM* architecture with an automated eval loop and *Optuna*-based hyperparameter search, iterating rapidly to *improve F1 by 90%* over the hand-tuned baseline
 - Analyzed model behavior with statistical evaluation, ablations, and error analysis to characterize failure modes and guide architecture and training decisions
 
 == Projects
@@ -67,7 +67,7 @@
   dates: dates-helper(start-date: "Sept 2025", end-date: "Apr 2026"),
   url: "kollec.app",
 )
-- Co-developed and deployed a scalable cloud-hosted card collection platform used by real customers, designing distributed APIs and data workflows with *Next.js*, *Node.js*, *Prisma ORM*, and *PostgreSQL* — from schema design to production 
+- Co-developed and deployed a scalable cloud-hosted card collection platform serving *100+* real users, designing distributed APIs and data workflows with *Next.js*, *Node.js*, *Prisma ORM*, and *PostgreSQL* — from schema design to production 
 - Built and deployed a production *computer-vision* service using a custom *YOLO* segmentation model with *embedding-based context* awareness, achieving *99% accuracy* across card types and lighting conditions
 - Designed a *RAG-style* identification workflow — image embeddings and vector similarity search over a curated corpus, with a lightweight *LLM* reasoning step for disambiguation
 - Owned the full ML and *NLP* lifecycle — dataset curation, training, evaluation, serving behind a REST API, and production monitoring — within a team of 7 maintaining full *Git/version control* and *CI/CD* pipelines
