@@ -56,7 +56,7 @@
   company: "McMaster University - Department of Computing and Software",
   dates: dates-helper(start-date: "May 2023", end-date: "May 2025"),
 )
-- Fine-tuned and evaluated deep neural networks under Dr. Douglas Down, building evaluation and model-serving frameworks to achieve *10% accuracy gains* with *15% smaller models*
+- Fine-tuned and evaluated deep neural networks under Dr. Douglas Down, building evaluation and model-serving frameworks to achieve *40% accuracy gains* with *50% smaller models*
 - Designed a novel *LSTM* architecture with an automated eval loop and *Optuna*-based hyperparameter search, iterating rapidly to *improve F1 by 90%* over the hand-tuned baseline
 - Analyzed model behavior with statistical evaluation, ablations, and error analysis to characterize failure modes and guide architecture and training decisions
 - Maintained the research codebase over 2+ years with versioned datasets, reproducible pipelines, and *CI checks*, *cutting experiment iteration time by 60%*

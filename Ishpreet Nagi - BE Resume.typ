@@ -56,7 +56,7 @@
   company: "McMaster University - Department of Computing and Software",
   dates: dates-helper(start-date: "May 2023", end-date: "May 2025"),
 )
-- Built and maintained backend evaluation and model-serving infrastructure in *Python* under Dr. Douglas Down, achieving *10% accuracy gains* with 15% smaller models
+- Built and maintained backend evaluation and model-serving infrastructure in *Python* under Dr. Douglas Down, achieving *40% accuracy gains* with *50% smaller models*
 - Automated the evaluation loop with *Optuna*-based hyperparameter search and reproducible experiment tracking, *improving F1 by 90%* over the hand-tuned baseline
 - Owned a research codebase across 2+ years with versioned schemas, reproducible pipelines, and *CI checks*, enabling other researchers to extend it unaided
 
