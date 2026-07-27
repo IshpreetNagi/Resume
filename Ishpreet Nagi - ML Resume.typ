@@ -72,6 +72,7 @@
 - Built and deployed a production *computer-vision* service using a custom *YOLO* segmentation model with *embedding-based context* awareness, achieving *99% accuracy* across card types and lighting conditions
 - Designed a *RAG-style* identification workflow — image embeddings and vector similarity search over a curated corpus, with a lightweight *LLM* reasoning step for disambiguation
 - Owned the full ML and *NLP* lifecycle — dataset curation, training, evaluation, serving behind a REST API, and production monitoring — within a team of 7 maintaining full *Git/version control* and *CI/CD* pipelines
+// - Built with agentic *LLM* tools such as *Codex* and *Claude Code* APIs using prompt chaining, tool use, and structured outputs, testing adversarially for hallucination
 
 #project(
   name: "DeltaHacks 10",

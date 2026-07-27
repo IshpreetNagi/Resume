@@ -70,7 +70,7 @@
 - Built a stateful peer-to-peer trade-matching engine with complex relational queries across users, collections, and offers, applying *DS&A* choices to keep response times under *100ms at scale*
 - Integrated a *YOLO* segmentation model behind a REST endpoint with *embedding-based context*, automating real-time card identification at *99% accuracy*
 - Owned feature delivery within a team of 7 — writing *unit tests* using *Jest* and *pytest*, *running code reviews*, and maintaining *CI/CD* pipelines with *Git*, *GitHub Actions*, and *Docker*
-- Built agentic *LLM* features with *OpenAI* and *Claude* APIs using prompt chaining, tool use, and structured outputs, testing adversarially for hallucination
+- Built with agentic *LLM* tools such as *Codex* and *Claude Code* APIs using prompt chaining, tool use, and structured outputs, testing adversarially for hallucination
 
 #project(
   name: "Personal Website",
