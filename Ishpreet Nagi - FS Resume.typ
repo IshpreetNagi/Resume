@@ -65,7 +65,7 @@
   dates: dates-helper(start-date: "Sept 2025", end-date: "Apr 2026"),
   url: "kollec.app",
 )
-- Co-developed a production card-collection platform end-to-end using *Next.js*, *TypeScript*, *React*, and *Tailwind CSS*, deployed on Vercel and serving *100+* real users
+- Co-developed a production, open-source card-collection platform end-to-end using *Next.js*, *TypeScript*, *React*, and *Tailwind CSS*, deployed on Vercel and serving *100+* real users
 - Designed scalable *REST APIs* and microservices with Next.js *API routes*, *Prisma ORM*, and *PostgreSQL*, owning the backend lifecycle from schema design through deployment and query optimization
 - Built a stateful peer-to-peer trade-matching engine with complex relational queries across users, collections, and offers, applying *DS&A* choices to keep response times under *100ms at scale*
 - Integrated a *YOLO* segmentation model behind a REST endpoint with *embedding-based context*, automating real-time card identification at *99% accuracy*
