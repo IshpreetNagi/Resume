@@ -42,7 +42,7 @@
 #work(
   title: "Software Engineer and Research Coordinator",
   location: "Waterloo, ON",
-  company: "Healthcare Systems Research & Analysis",
+  company: "Healthcare Systems Research & Analysis Inc.",
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
 - Engineered an end-to-end ML pipeline for large-scale geospatial classification using *TensorFlow* and *PyTorch*, benchmarking model variants and shipping the winning architecture at *98% accuracy*
