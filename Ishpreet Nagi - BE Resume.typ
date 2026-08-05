@@ -42,7 +42,7 @@
 #work(
   title: "Software Engineer and Research Coordinator",
   location: "Waterloo, ON",
-  company: "Healthcare Systems Research & Analysis",
+  company: "Healthcare Systems Research & Analysis Inc.",
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
 - Designed distributed backend data pipelines in *Python* with *PostgreSQL*, *Pandas*, and *NumPy* to ingest, preprocess, and validate large interconnected datasets, *automating 90% of downstream deployment*

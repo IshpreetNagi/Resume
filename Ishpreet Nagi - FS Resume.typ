@@ -42,7 +42,7 @@
 #work(
   title: "Software Engineer and Research Coordinator",
   location: "Waterloo, ON",
-  company: "Healthcare Systems Research & Analysis",
+  company: "Healthcare Systems Research & Analysis Inc.",
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
 - Shipped end-to-end customer-facing features, owning technical design, implementation, code review, and rollout of an ML classification product delivering *98% accuracy* in production
