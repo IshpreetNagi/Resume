@@ -68,7 +68,7 @@
   dates: dates-helper(start-date: "Sept 2025", end-date: "Apr 2026"),
   url: "kollec.app",
 )
-- Co-developed and deployed a scalable open-source card collection platform serving *100+* real users, designing distributed APIs and data workflows with *Next.js*, *Node.js*, *Prisma ORM*, and *PostgreSQL* — from schema design to production 
+- Developed a scalable open-source card collection platform serving *100+* real users, designing distributed APIs and data workflows with *Next.js*, *Node.js*, *Prisma ORM*, and *PostgreSQL* — from schema design to production 
 - Built and deployed a production *computer-vision* service using a custom *YOLO* segmentation model with *embedding-based context* awareness, achieving *99% accuracy* across card types and lighting conditions
 - Designed a *RAG-style* identification workflow — image embeddings and vector similarity search over a curated corpus, with a lightweight *LLM* reasoning step for disambiguation
 - Owned the full ML and *NLP* lifecycle — dataset curation, training, evaluation, serving behind a REST API, and production monitoring — within a team of 7 maintaining full *Git/version control* and *CI/CD* pipelines
