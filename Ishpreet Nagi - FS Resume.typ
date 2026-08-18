@@ -91,5 +91,5 @@
 == Skills
 - *Languages:* TypeScript, JavaScript, Python, Java, SQL (PostgreSQL, MySQL), HTML/CSS
 - *Frontend:* React, Next.js, Astro, Tailwind CSS, Chakra UI, Material UI, Redux, ShadCN
-- *Backend & APIs:* Node.js, REST APIs, GraphQL, Prisma ORM, PostgreSQL, microservices, system design
-- *Tools & AI:* Git, GitHub Actions (CI/CD), Docker, Vercel, Supabase, automated testing, GitHub Copilot, Claude Code, OpenAI/Claude APIs, LLM integration
+- *Backend & APIs:* Node.js, REST APIs, GraphQL, Prisma ORM, Microservices, System Design
+- *Tools & AI:* Git, GitHub Actions (CI/CD), Docker, Vercel, Supabase, Automated testing, GitHub Copilot, Claude Code, OpenAI/Claude APIs, LLM integration
