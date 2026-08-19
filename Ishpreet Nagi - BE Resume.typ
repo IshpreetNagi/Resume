@@ -84,6 +84,6 @@
 
 == Skills
 - *Languages:* Python, Java, TypeScript, JavaScript, SQL (PostgreSQL, MySQL), C/C++
-- *Backend & APIs:* REST, RPC, microservices, Node.js, Prisma ORM, Event-Driven Architecture, System Design
+- *Backend & APIs:* REST, RPC, Microservices, Node.js, Prisma ORM, Event-Driven Architecture, System Design
 - *Data Stores:* PostgreSQL, MySQL, Supabase, Query Optimization, Schema Design, Indexing
 - *Infra & AI Tooling:* Distributed Systems, Concurrency, Docker, GitHub Actions (CI/CD), Git, GitHub Copilot, Cursor, Claude Code, LLM integration
