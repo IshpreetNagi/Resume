@@ -85,6 +85,6 @@
 
 == Skills
 - *Languages:* Python, C/C++, TypeScript, Java, SQL (PostgreSQL, MySQL)
-- *ML & DL:* PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, Optuna, Hugging Face Transformers
-- *ML Systems:* LSTM/RNN, CNN/YOLO, embeddings, vector search, RAG, prompt chaining, agents, model evaluation & ablation, hyperparameter search, GPU-aware training
-- *Data, Infra & AI Tooling:* PostgreSQL, distributed data pipelines, Jupyter, Git, Docker, GitHub Actions (CI/CD), AWS/GCP, OpenAI API, Claude API, MCP, Cursor, Claude Code
+- *ML & DL:* PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, Optuna, Hugging Face Transformers
+- *ML Systems:* LSTM/RNN, CNN/YOLO, Embeddings, Vector search, RAG, prompt chaining, agents, Model Evaluation & Ablation, Hyperparameter Search, GPU-Aware Training
+- *Data, Infra & AI Tooling:* PostgreSQL, Distributed Data Pipelines, Jupyter, Git, Docker, GitHub Actions (CI/CD), OpenAI API, Claude API, MCP, Cursor, Claude Code
