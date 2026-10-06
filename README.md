@@ -6,9 +6,9 @@ Resumes written in [Typst](https://typst.app/), compiled to PDF and published to
 
 | Role | Link |
 | --- | --- |
-| AI / ML Engineer | [ishpreetnagi.github.io/Resume/ml](https://ishpreetnagi.github.io/Resume/ml) |
-| Backend Engineer | [ishpreetnagi.github.io/Resume/backend](https://ishpreetnagi.github.io/Resume/backend) |
-| Full-Stack Engineer | [ishpreetnagi.github.io/Resume/fullstack](https://ishpreetnagi.github.io/Resume/fullstack) |
+| AI / ML Developer | [ishpreetnagi.github.io/Resume/ml](https://ishpreetnagi.github.io/Resume/ml) |
+| Frontend Developer | [ishpreetnagi.github.io/Resume/backend](https://ishpreetnagi.github.io/Resume/backend) |
+| Full-Stack Developer | [ishpreetnagi.github.io/Resume/fullstack](https://ishpreetnagi.github.io/Resume/fullstack) |
 
 An index of all versions is at [ishpreetnagi.github.io/Resume](https://ishpreetnagi.github.io/Resume/).
 
