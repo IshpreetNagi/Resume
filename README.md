@@ -4,12 +4,6 @@ Resumes written in [Typst](https://typst.app/), compiled to PDF and published to
 
 ## View online
 
-| Role                 | Link                                                                                       |
-| -------------------- | ------------------------------------------------------------------------------------------ |
-| AI / ML Developer    | [ishpreetnagi.github.io/Resume/ml](https://ishpreetnagi.github.io/Resume/ml)               |
-| Frontend Developer   | [ishpreetnagi.github.io/Resume/frontend](https://ishpreetnagi.github.io/Resume/frontend)   |
-| Full-Stack Developer | [ishpreetnagi.github.io/Resume/fullstack](https://ishpreetnagi.github.io/Resume/fullstack) |
-
 An index of all versions is at [ishpreetnagi.github.io/Resume](https://ishpreetnagi.github.io/Resume/).
 
 Each short link redirects to the PDF, so the downloaded file is named
