@@ -33,9 +33,9 @@ jobs:
           # The basename is used for both "<basename>.typ" and the published
           # "<basename>.pdf", so this array is the only place to edit.
           entries=(
-            "ml|AI / ML Engineer|Ishpreet Nagi - ML Resume"
-            "backend|Backend Engineer|Ishpreet Nagi - BE Resume"
-            "fullstack|Full-Stack Engineer|Ishpreet Nagi - FS Resume"
+            "ml|AI / ML Developer|Ishpreet Nagi - ML Resume"
+            "frontend|Frontend Developer|Ishpreet Nagi - FE Resume"
+            "fullstack|Full-Stack Developer|Ishpreet Nagi - FS Resume"
           )
 
           links=""

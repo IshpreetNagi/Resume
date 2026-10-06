@@ -4,21 +4,21 @@ Resumes written in [Typst](https://typst.app/), compiled to PDF and published to
 
 ## View online
 
-| Role | Link |
-| --- | --- |
-| AI / ML Developer | [ishpreetnagi.github.io/Resume/ml](https://ishpreetnagi.github.io/Resume/ml) |
-| Frontend Developer | [ishpreetnagi.github.io/Resume/backend](https://ishpreetnagi.github.io/Resume/backend) |
+| Role                 | Link                                                                                       |
+| -------------------- | ------------------------------------------------------------------------------------------ |
+| AI / ML Developer    | [ishpreetnagi.github.io/Resume/ml](https://ishpreetnagi.github.io/Resume/ml)               |
+| Frontend Developer   | [ishpreetnagi.github.io/Resume/frontend](https://ishpreetnagi.github.io/Resume/frontend)   |
 | Full-Stack Developer | [ishpreetnagi.github.io/Resume/fullstack](https://ishpreetnagi.github.io/Resume/fullstack) |
 
 An index of all versions is at [ishpreetnagi.github.io/Resume](https://ishpreetnagi.github.io/Resume/).
 
 Each short link redirects to the PDF, so the downloaded file is named
-`Ishpreet Nagi - ML Resume.pdf`, `Ishpreet Nagi - BE Resume.pdf`, or `Ishpreet Nagi - FS Resume.pdf`.
+`Ishpreet Nagi - ML Resume.pdf`, `Ishpreet Nagi - FE Resume.pdf`, or `Ishpreet Nagi - FS Resume.pdf`.
 
-| Source | Published as | Short link |
-| --- | --- | --- |
-| `Ishpreet Nagi - ML Resume.typ` | `Ishpreet Nagi - ML Resume.pdf` | `/ml` |
-| `Ishpreet Nagi - BE Resume.typ` | `Ishpreet Nagi - BE Resume.pdf` | `/backend` |
+| Source                          | Published as                    | Short link   |
+| ------------------------------- | ------------------------------- | ------------ |
+| `Ishpreet Nagi - ML Resume.typ` | `Ishpreet Nagi - ML Resume.pdf` | `/ml`        |
+| `Ishpreet Nagi - FE Resume.typ` | `Ishpreet Nagi - FE Resume.pdf` | `/frontend`  |
 | `Ishpreet Nagi - FS Resume.typ` | `Ishpreet Nagi - FS Resume.pdf` | `/fullstack` |
 
 ## Building locally
