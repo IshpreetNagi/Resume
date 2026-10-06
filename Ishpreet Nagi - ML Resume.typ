@@ -35,31 +35,32 @@
   dates: dates-helper(start-date: "Sept 2021", end-date: "May 2026"),
   degree: "Bachelor of Applied Science, Computer Science",
 )
-- Summa Cum Laude | Dean's Honor List
+- Graduated with Distinction (summa cum laude); Dean's Honour List
 
 == Work Experience
 
 #work(
   title: "Software Engineer and Research Coordinator",
-  location: "Waterloo, ON",
+  location: "Waterloo, ON (Remote)",
   company: "Healthcare Systems Research & Analysis Inc.",
   dates: dates-helper(start-date: "June 2024", end-date: "July 2025"),
 )
-- Engineered an end-to-end ML pipeline for large-scale geospatial classification using *TensorFlow* and *PyTorch*, benchmarking model variants and shipping the winning architecture at *98% accuracy*
-- Built distributed data pipelines in *Python* with *Pandas*, *NumPy*, *scikit-learn*, *CUDA*, and *XGBoost* to ingest and validate multi-million-row datasets, powering training workflows and *automating 90% of model deployment*
-- Instrumented training and inference with reproducible experiment tracking and evaluation metrics that surfaced failure modes before they reached production
-- Led 4 engineers across 8 stakeholders, turning ambiguous research requirements into technical designs, running code reviews, and delivering every milestone on time
+- Engineered an end-to-end geospatial classification pipeline using Python, TensorFlow, PyTorch, XGBoost, Pandas, NumPy, scikit-learn, PostgreSQL, and CUDA, benchmarking model variants and achieving *up to 98% accuracy* with *F1 scores between 0.94 and 0.97*.
+- Automated approximately *90% of the ML lifecycle*, orchestrating raw-file ingestion, schema validation, data cleaning, normalization, feature extraction, dataset splitting, model training, evaluation, and structured JSON result generation.
+- Designed the pipeline as a collection of modular and reusable stages, allowing preprocessing, feature-engineering, model, and evaluation components to be independently replaced or extended across experiments.
+- Instrumented the workflow with *pipeline observability* through experiment tracking, stage-level logs, execution traces, dataset-size checks, training-time measurements, and complete metric reporting.
+- Identified a failure mode where aggressive preprocessing silently removed valid records, then added data-completeness checks alongside quality validation to ensure strong metrics remained representative of the intended dataset.
+- Led *four engineers across eight stakeholders*, coordinating research requirements, technical implementation, model evaluation, code review, and project delivery.
 
 #work(
   title: "Machine Learning Analyst and Research Assistant",
   location: "Hamilton, ON",
-  company: "McMaster University - Department of Computing and Software",
+  company: "McMaster University",
   dates: dates-helper(start-date: "May 2023", end-date: "May 2025"),
 )
-- Fine-tuned and evaluated deep neural networks under Dr. Douglas Down, building evaluation and model-serving frameworks to achieve *40% accuracy gains* with *50% smaller models*
-- Designed a novel *LSTM* architecture with an automated eval loop and *Optuna*-based hyperparameter search, iterating rapidly to *improve F1 by 90%* over the hand-tuned baseline
-- Analyzed model behavior with statistical evaluation, ablations, and error analysis to characterize failure modes and guide architecture and training decisions
-- Maintained the research codebase over 2+ years with versioned datasets, reproducible pipelines, and *CI checks*, *cutting experiment iteration time by 60%*
+- Worked across several machine-learning research projects under Dr. Douglas Down, developing, training, and evaluating neural-network models using Python, MATLAB, TensorFlow, and PyTorch.
+- Optimized a MATLAB-based model by reducing its input variables by *nearly 40%* while preserving accuracy and reducing unnecessary data dependencies.
+- Built reproducible Optuna-based evaluation tools that achieved a *final F1 score of 0.94*, using controlled experiments, ablation studies, and error analysis while refactoring models into reusable Python components.
 
 == Projects
 
@@ -68,23 +69,13 @@
   dates: dates-helper(start-date: "Sept 2025", end-date: "Apr 2026"),
   url: "kollec.app",
 )
-- Developed a scalable open-source card collection platform serving *100+* real users, designing distributed APIs and data workflows with *Next.js*, *Node.js*, *Prisma ORM*, and *PostgreSQL* — from schema design to production 
-- Built and deployed a production *computer-vision* service using a custom *YOLO* segmentation model with *embedding-based context* awareness, achieving *99% accuracy* across card types and lighting conditions
-- Designed a *RAG-style* identification workflow — image embeddings and vector similarity search over a curated corpus, with a lightweight *LLM* reasoning step for disambiguation
-- Owned the full ML and *NLP* lifecycle — dataset curation, training, evaluation, serving behind a REST API, and production monitoring — within a team of 7 maintaining full *Git/version control* and *CI/CD* pipelines
-// - Built with agentic *LLM* tools such as *Codex* and *Claude Code* APIs using prompt chaining, tool use, and structured outputs, testing adversarially for hallucination
-
-#project(
-  name: "DeltaHacks 10",
-  role: "Technical Executive",
-  dates: dates-helper(start-date: "Aug 2023", end-date: "May 2024"),
-  url: "github.com/deltahacks/landing-10",
-)
-- Shipped the official DeltaHacks 10 platform under a hard deadline to *1000+ applicants* using Astro and TypeScript
-- Instrumented telemetry and behavioral logging to characterize user engagement, using the data to iterate on content and *increase user attention by 25%*
+- Co-developed a production card-collection platform using Next.js, TypeScript, React, Chakra UI, and Capacitor across web and Android.
+- Contributed to a computer-vision pipeline using a custom YOLO model and perceptual hashing, achieving *99% accuracy on a 400-image evaluation set*.
+- Helped build and integrate a *CLIP-based semantic-search system* using embeddings and cosine similarity, implementing the retrieval layer associated with RAG architectures while returning ranked cards directly without an LLM.
+- Worked across the surrounding Next.js, TypeScript, Prisma, PostgreSQL, and Supabase application, helping turn experimental ML components into production features used by *100+ people* while owning major full-stack, data, and trade-matching functionality.
 
 == Skills
-- *Languages:* Python, C/C++, TypeScript, Java, SQL (PostgreSQL, MySQL)
-- *ML & DL:* PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, Optuna, Hugging Face Transformers
-- *ML Systems:* LSTM/RNN, CNN/YOLO, Embeddings, Vector Search, RAG, Prompt Chaining, Agents, Model Evaluation & Ablation, Hyperparameter Search, GPU-Aware Training
-- *Data, Infra & AI Tooling:* PostgreSQL, Distributed Data Pipelines, Jupyter, Git, Docker, GitHub Actions (CI/CD), OpenAI API, Claude API, MCP, Cursor, Claude Code
+- *Languages:* Python, TypeScript, JavaScript, SQL, Java, C/C++, MATLAB
+- *ML & Techniques:* PyTorch, TensorFlow, scikit-learn, XGBoost, Optuna, CUDA, YOLO, CLIP, LSTM/RNN, Feature Engineering, Ablation Studies
+- *ML Systems & Retrieval:* End-to-End ML Pipelines, Experiment Tracking, Pipeline Observability, Embeddings, Semantic Search, Cosine Similarity, RAG Architecture Concepts, Retrieval Evaluation
+- *Data & Tooling:* NumPy, Pandas, PostgreSQL, Jupyter, ONNX, Git, Docker, GitHub Actions, CI/CD
